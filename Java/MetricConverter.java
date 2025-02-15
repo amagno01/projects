@@ -3,6 +3,7 @@ import java.util.Scanner; // import java class
 
 public class MetricConverter { // controlling class
     public static void main(String[] args) { // main method
+
         Scanner input = new Scanner(System.in); // import scanner class
 
 
@@ -52,7 +53,7 @@ public class MetricConverter { // controlling class
             default:
                 System.out.println("\nInvalid choice. Please select a valid option (1-8).");
         }
-
+ 
         input.close(); // closes scanner class to prevent leaks/errors
     }
 
